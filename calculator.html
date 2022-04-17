@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculator</h1>
+        <input type="text" id="screen" class="screen">
+        <table>
+            <tr>
+                <td><button class="nums">7</button></td>
+                <td><button class="nums">8</button></td>
+                <td><button class="nums">9</button></td>
+                <td><button class="ops" id="sign">+/-</button></td>
+                <td><button class="ops" id="modulo">%</button></td>
+            </tr>
+            <tr>
+                <td><button class="nums">4</button></td>
+                <td><button class="nums">5</button></td>
+                <td><button class="nums">6</button></td>
+                <td><button class="ops" id="multply">X</button></td>
+                <td><button class="ops" id="divide">/</button></td>
+            </tr>
+            <tr>
+                <td><button class="nums">1</button></td>
+                <td><button class="nums">2</button></td>
+                <td><button class="nums">3</button></td>
+                <td><button class="ops" id="subt">-</button></td>
+                <td rowspan="0"><button class="special" id="equals">=</button></td>
+            </tr>
+            <tr>
+                <td><button class="clean" id="clean">C</button></td>
+                <td><button class="nums">0</button></td>
+                <td><button class="nums" id="deci">.</button></td>
+                <td><button class="ops" id="add">+</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
